@@ -18,11 +18,15 @@ body{
 header{
   position: absolute;
   background-image: url("../img/bosco.jpg");
-  width: 75%;
+  width: 80%;
   height: 300px;
   left: 10%;
   top: 10px;
-  border-color: white;
+  border: 10px solid white;
+}
+#natural{
+  color: white;
+
 
 }
 
