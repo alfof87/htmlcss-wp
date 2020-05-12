@@ -56,19 +56,20 @@ li{
 
 
 
-.container1:hover{
+.container1::after{
   content: "";
   display: table;
   clear: both;
   width: 80%;
   height: 300px;
-  
+
 
 }
 
 
 /*parte sinistra*/
 .sinistra{
+  position: absolute;
   float: left;
   width: 40%;
   height: 500px;
