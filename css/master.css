@@ -60,6 +60,10 @@ li{
   content: "";
   display: table;
   clear: both;
+  width: 80%;
+  height: 300px;
+  
+
 }
 
 
