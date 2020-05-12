@@ -10,8 +10,12 @@ body{
 }
 
 /*container*/
-#container{
+#container::after{
   position: relative;
+  content: "";
+  display: table;
+  clear: both;
+
 }
 /*header*/
 header{
@@ -23,6 +27,7 @@ header{
   top: 10px;
   border: 10px solid white;
 }
+
 #natural{
   display: inline-block;
   color: white;
@@ -49,8 +54,7 @@ li{
   display: inline-block;
   font-size: 20px;
   color: white;
-
-
+  transform: translate(-0%, +50%);
 }
 
 
@@ -58,7 +62,16 @@ li{
 }
 
 /*parte sinistra*/
+.sinistra{
+  float: left;
+  width: 100%;
+  height: 200px;
+  background-color: white;
+}
 
+span{
+
+}
 /*parte centrale*/
 
 /*parte destra*/
