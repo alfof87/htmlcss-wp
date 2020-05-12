@@ -11,18 +11,20 @@ body{
 }
 
 /*container*/
-#container{
-  position: relative;
-}
+
 /*header*/
 header{
-  position: absolute;
+
+
+  padding-top: 10px;
+}
+
+#bosco{
   background-image: url("../img/bosco.jpg");
   width: 80%;
   height: 300px;
-  left: 10%;
-  top: 10px;
   border: 10px solid white;
+  margin: 0 auto;
 }
 
 #natural{
@@ -41,10 +43,10 @@ header{
 
 nav{
   background-color: #696969;
-  width: 100%;
+  width: 80%;
   height: 60px;
-  transform: translate(0%, +295%);
   text-align: center;
+  margin: 0 auto;
 }
 
 li{
@@ -60,26 +62,35 @@ li{
   content: "";
   display: table;
   clear: both;
-  width: 80%;
-  height: 300px;
-
 
 }
-
+.container1{
+  width: 80%;
+  margin: 0 auto;
+}
 
 /*parte sinistra*/
 .sinistra{
-  position: absolute;
   float: left;
-  width: 40%;
+  width: 20%;
   height: 500px;
   background-color: white;
 }
 
 /*parte centrale*/
-
+.centro{
+  float: left;
+  width: 40%;
+  height: 500px;
+  background-color: white;
+}
 /*parte destra*/
-
+.destra{
+  float: left;
+  width: 20%;
+  height: 500px;
+  background-color: white;
+}
 
 
 
