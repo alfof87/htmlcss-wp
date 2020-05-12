@@ -75,6 +75,7 @@ li{
   width: 20%;
   height: 500px;
   background-color: white;
+  margin-right: 121px;
 }
 
 /*parte centrale*/
@@ -83,6 +84,7 @@ li{
   width: 40%;
   height: 500px;
   background-color: white;
+  margin-right: 121px;
 }
 /*parte destra*/
 .destra{
@@ -100,9 +102,12 @@ li{
 
 
 
+
 /*footer*/
 #fine{
 background-color: white;
 width: 80%;
-height:
+height:150px;
+margin: 0 auto;
+margin-top: 2000px;
 }
