@@ -56,13 +56,18 @@ li{
 
 
 
+.container1:hover{
+  content: "";
+  display: table;
+  clear: both;
+}
 
 
 /*parte sinistra*/
 .sinistra{
   float: left;
   width: 40%;
-  height: 200px;
+  height: 500px;
   background-color: white;
 }
 /*parte centrale*/
@@ -80,5 +85,7 @@ li{
 
 /*footer*/
 #fine{
-
+background-color: white;
+width: 80%;
+height:
 }
