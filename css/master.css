@@ -7,15 +7,12 @@
 body{
   background-image: url("../img/legno.png");
   width: 100%;
+
 }
 
 /*container*/
-#container::after{
+#container{
   position: relative;
-  content: "";
-  display: table;
-  clear: both;
-
 }
 /*header*/
 header{
@@ -59,18 +56,14 @@ li{
 
 
 
-}
+
 
 /*parte sinistra*/
 .sinistra{
   float: left;
-  width: 100%;
+  width: 40%;
   height: 200px;
   background-color: white;
-}
-
-span{
-
 }
 /*parte centrale*/
 
